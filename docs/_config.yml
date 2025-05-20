@@ -1,25 +1,3 @@
-title: "AI Radiology Report Generator"
-subtitle: "A deep learning-based radiology reporting system"
-name: Sugayathri Devi Ponnada
-description: "Capstone Project | UMBC Data Science | Spring 2025"
-url: "https://sugayathriponnada.github.io"
-baseurl: "/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final"
-repository: "sugayathriponnada/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final"
-
-markdown: kramdown
-theme: minimal-mistakes-jekyll
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-author:
-  name: "Sugayathri Devi Ponnada"
-  avatar: "/assets/images/avatar.png"
-  bio: "Graduate Student | Data Science @ UMBC"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/sugayathriponnada"
-    - label: "Hugging Face"
-      icon: "fas fa-robot"
-      url: "https://huggingface.co/spaces/Sugayathri/ai_radiology"
+theme: jekyll-theme-cayman
+title: AI Radiology Report Generator
+description: DS606 Final Project - Team F
