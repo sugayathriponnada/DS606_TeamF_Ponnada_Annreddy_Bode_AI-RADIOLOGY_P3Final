@@ -30,6 +30,13 @@ Built using DenseNet121 and trained on the NIH ChestX-ray14 dataset.
 ## 🚀 Live Demo
 [👉 Try the App on Hugging Face](https://huggingface.co/spaces/Sugayathri/ai_radiology)
 
+
+## 📷 Sample Output
+
+Here’s how the model interprets and classifies a chest X-ray:
+
+![Sample Output](Sample_Output.png)
+
 ## 📎 GitHub Repo
 [View Project Repository](https://github.com/sugayathriponnada/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final)
 
