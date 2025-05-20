@@ -5,9 +5,9 @@ Built using DenseNet121 and trained on the NIH ChestX-ray14 dataset.
 
 ## 🧠 Project Highlights
 
--🔍 Used the NIH ChestX-ray14 dataset with over 100,000 labeled X-ray images.
+-🔍 Used the NIH ChestX-ray14 dataset with over 100,000 labelled X-ray images.
 
--📦 Dataset downloaded and extracted automatically from Hugging Face Datasets.
+-📦 The dataset was downloaded and extracted automatically from Hugging Face Datasets.
 
 -🧹 Implemented a multi-label preprocessing pipeline with label binarization using MultiLabelBinarizer.
 
