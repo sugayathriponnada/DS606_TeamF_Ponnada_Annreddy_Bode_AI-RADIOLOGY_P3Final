@@ -34,7 +34,7 @@ This project presents a complete deep learning pipeline to detect thoracic disea
 
 ## 🔗 Project Links
 
-- 🔴 **[Live App on Hugging Face](https://huggingface.co/spaces/Sugayathri/ai_radiology/resolve/main/app.py)**  
+- 🔴 **[Live App on Hugging Face]([huggingface.co/spaces/Sugayathri/ai_radiology](https://huggingface.co/spaces/Sugayathri/ai_radiology))**  
 - 📘 **[GitHub Pages Site](https://sugayathriponnada.github.io/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final/)**  
 - 🧠 **[Dataset Source – CXR8-Selected (Kaggle)](https://www.kaggle.com/datasets/myylee/cxr8-selected)**  
 - ☁️ **[Mirror on Hugging Face Datasets](https://huggingface.co/datasets/Sugayathri/crx8selected)**  
