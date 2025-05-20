@@ -1,8 +1,4 @@
+theme: jekyll-theme-cayman
 title: AI Radiology Report Generator
 description: DS606 Final Project - Team F
-theme: minima
-
-# Optional extras (uncomment if needed)
-# show_excerpts: true
-# markdown: kramdown
 
