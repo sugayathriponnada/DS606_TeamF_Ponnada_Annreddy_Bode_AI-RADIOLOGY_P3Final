@@ -13,7 +13,7 @@ Built using DenseNet121 and trained on the NIH ChestX-ray14 dataset.
 
 -📊 Worked with bounding box annotations for disease localization (BBox_List_2017.csv).
 
--📁 Cleaned and filtered image-label mappings with multi-label splits (e.g., "Effusion|Cardiomegaly").
+-📁 Cleaned and filtered image-label mappings with multi-label splits (Example: Effusion, Cardiomegaly).
 
 -🧠 Designed a custom CNN model (not DenseNet) to perform thoracic disease classification.
 
