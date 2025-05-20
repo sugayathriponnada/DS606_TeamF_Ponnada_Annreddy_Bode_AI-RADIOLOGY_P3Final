@@ -1,97 +1,41 @@
----
-layout: single
-title: "🩺 AI Radiology Report Generator"
-subtitle: "Deep learning-based chest X-ray disease detection and automated report generation"
-date: 2025-05-20
-author_profile: true
-read_time: true
-toc: true
-toc_sticky: true
-toc_label: "Contents"
-classes: wide
----
+# 🩺 AI Radiology Report Generator
 
-This project presents an end-to-end deep learning pipeline for automated chest X-ray interpretation. Built using an ensemble of **DenseNet121** and **EfficientNet-B3**, the model classifies thoracic diseases and generates structured radiology reports. It is deployed using **Gradio** on **Hugging Face Spaces**.
+This project uses deep learning to generate radiology reports from chest X-rays.  
+Built using DenseNet121 and trained on the NIH ChestX-ray14 dataset.
 
----
+## 🧠 Project Highlights
 
-## 🧠 Project Overview
+-🔍 Used the NIH ChestX-ray14 dataset with over 100,000 labelled X-ray images.
 
-- **Dataset**: NIH ChestX-ray14 (100,000+ labeled images)
-- **Model**: Ensemble of DenseNet121 + EfficientNet-B3
-- **Interface**: Gradio-based web UI
-- **Deployment**: Hugging Face Spaces
-- **Outputs**: Disease classification, report text, downloadable PDF
+-📦 The dataset was downloaded and extracted automatically from Hugging Face Datasets.
 
----
+-🧹 Implemented a multi-label preprocessing pipeline with label binarization using MultiLabelBinarizer.
 
-## 🚀 Application Features
+-📊 Worked with bounding box annotations for disease localization (BBox_List_2017.csv).
 
-- **Image Upload**: Accepts `.jpg` or `.png` X-ray files
-- **Ensemble Prediction**: Model outputs per-class probabilities
-- **Threshold-Based Detection**: Tuned thresholds per disease label
-- **Explainable Output**: Adds condition-specific interpretations
-- **PDF Report**: Generates downloadable radiology report
+-📁 Cleaned and filtered image-label mappings with multi-label splits (Example: Effusion, Cardiomegaly).
 
----
+-🧠 Designed a custom CNN model (not DenseNet) to perform thoracic disease classification.
 
-## 🔬 Diseases Detected
+-⚙️ Automated the full data loading, extraction, and cleaning process in a reproducible pipeline.
 
-The system identifies the following thoracic conditions:
+-✅ Verified class imbalance and prepared data for multi-label stratified splits.
 
-- Atelectasis
-- Cardiomegaly
-- Effusion
-- Mass
-- Nodule
-- Pneumonia
-- Pneumothorax
 
-Each detected condition is explained in the output report using clinical-style descriptions.
+## 👩‍💻 Team Members
+- Sugayathri Devi Ponnada
+- Ishita Reddy Annreddy
+- Deepika Bode
 
----
+## 🚀 Live Demo
+[👉 Try the App on Hugging Face](https://huggingface.co/spaces/Sugayathri/ai_radiology)
 
-## 🧪 Technical Stack
-
-| Component     | Details                                      |
-|---------------|----------------------------------------------|
-| Framework     | PyTorch + timm                              |
-| Preprocessing | CLAHE, grayscale normalization, resizing    |
-| Architecture  | Custom Ensemble (DenseNet121 + EfficientNet-B3) |
-| Interface     | Gradio Blocks                               |
-| Deployment    | Hugging Face Spaces                         |
-| Reporting     | ReportLab PDF generation                    |
-
----
 
 ## 📷 Sample Output
 
-Example model prediction with interpreted report:
+Here’s how the model interprets and classifies a chest X-ray:
 
-![Sample Output](assets/images/Sample_Output.png)
+![Sample Output](Sample_Output.png)
 
----
-
-## 🌐 Live Demo
-
-👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/Sugayathri/ai_radiology)
-
----
-
-## 📎 GitHub Repository
-
-🔗 [Project Source Code](https://github.com/sugayathriponnada/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final)
-
----
-
-## 👩‍💻 Team Members
-
-- Sugayathri Devi Ponnada  
-- Ishita Reddy Annreddy  
-- Deepika Bode  
-
-_Capstone Project – DATA 606, Spring 2025, University of Maryland, Baltimore County_
-
----
-
-> 💬 _"Empowering radiologists with AI-driven diagnostics and report automation."_
+## 📎 GitHub Repo
+[View Project Repository](https://github.com/sugayathriponnada/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final)
