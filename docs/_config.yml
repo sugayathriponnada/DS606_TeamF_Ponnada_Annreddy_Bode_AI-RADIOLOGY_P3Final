@@ -1,0 +1,3 @@
+theme: minima
+title: AI Radiology Report
+description: A deep learning project to generate radiology reports from X-rays

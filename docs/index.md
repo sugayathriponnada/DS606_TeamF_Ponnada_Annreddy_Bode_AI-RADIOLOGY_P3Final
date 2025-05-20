@@ -1,22 +1,21 @@
-# AI for Automated Radiology Report Generation
+# 🩺 AI Radiology Report Generator
 
-Welcome to our final project for DS606!  
-We use deep learning to classify thoracic diseases from chest X-rays and generate clinical-style reports.
+## Project Summary
 
-## 👩‍💻 Team Members
+
+## 🔍 Notebook Insights
+Below are some of the key markdown notes from our exploratory notebook:
+
+
+## 🚀 Live Demo
+Try the deployed app on Hugging Face:  
+🔗 [AI Radiology Report Generator](https://huggingface.co/spaces/Sugayathri/ai_radiology)
+
+## 🧠 Team
 - Sugayathri Devi Ponnada
 - Ishita Reddy Annreddy
 - Deepika Bode
 
-## 🔗 Key Links
-- [Live Demo](https://sugayathri-ai-radiology.hf.space)
-- [GitHub Repo](https://github.com/sugayathriponnada/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final)
+---
 
-## 🧠 Project Highlights
-- Multi-label classification of 14 diseases using DenseNet121
-- Grad-CAM for interpretability
-- Flask + Gradio web app
-- GitHub Pages documentation
-
-## 📊 Sample Output
-![GradCAM Example](gradcam.png)
+View the full source code on [GitHub](https://github.com/sugayathriponnada/DS606_TeamF_Ponnada_Annreddy_Bode_AI-RADIOLOGY_P3Final)
