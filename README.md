@@ -47,7 +47,7 @@ This project presents a complete deep learning pipeline to detect thoracic disea
 - **Deepika Bode**  
 - **Ishita Reddy Annreddy**  
 
-**Advisor**: *Dr. Zak Sakoglu – University of Maryland, Baltimore County (UMBC)*
+**Advisor**: *Dr. Unal 'Zak' Sakoglu – University of Maryland, Baltimore County (UMBC)*
 
 ---
 
